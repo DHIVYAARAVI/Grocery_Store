@@ -7,7 +7,7 @@
 .form{
     background-image: url('../../images/36.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 500px;
     padding: 25% 0 0 20%;
     color: white;
