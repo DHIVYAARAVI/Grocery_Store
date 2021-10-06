@@ -1,0 +1,13 @@
+.up_btn{
+    width: 50px;
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+}
+
+@media only screen and (max-width: 600px){
+    .up_btn{
+        bottom: 8%;
+        right: 2%;
+    }
+}

@@ -1,0 +1,135 @@
+.fruits{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.apple{
+    background-image: url('../../images/12.jpg');
+    background-repeat: no-repeat;
+    margin: 10%;
+    margin-left: 12%;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px #DC143C;
+    font-family: 'Akaya Telivigala';
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 3%;
+}
+
+.apple_img{
+    height: 200px;
+    padding-left: 5%;
+}
+
+.apple_h3{
+    color: white;
+    font-size: 30px;
+    padding: 15% 0 5% 15%;
+}
+
+.apple_btn{
+    font-size: 15px;
+    border-radius: 10px;
+    color:white;
+    background-color: #FA8072;
+    padding: 2%;
+    margin-left: 30%;
+}
+
+.apple_btn:hover{
+    background-color: #FF4500;
+    color: darkblue;
+}
+
+.melon{
+    background-image: url('../../images/14.jpg');
+    background-repeat: no-repeat;
+    margin: 10%;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px #00FA9A;
+    font-family: 'Akaya Telivigala';
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-top: 3%;
+}
+
+.melon_img{
+    height: 250px;
+}
+
+.melon_h3{
+    font-size: 30px;
+    padding: 15% 0 5% 25%;
+}
+
+.melon_btn{
+    font-size: 15px;
+    border-radius: 10px;
+    color:white;
+    background-color: #20B2AA;
+    padding: 2%;
+    margin-left: 45%;
+}
+
+.melon_btn:hover{
+    background-color: #808000;
+}
+
+@media only screen and (max-width: 600px){
+    .fruits{
+        display: block;
+    }
+    
+    .apple{
+        margin: 10%;
+        margin-left: 6%;
+        width: 350px;
+        height: 300px;
+        display: block;
+        padding-top: 2%;
+    }
+    
+    .apple_img{
+        height: 150px;
+        padding-left: 25%;
+    }
+    
+    .apple_h3{
+        color: white;
+        font-size: 30px;
+        padding: 0% 0 5% 17%;
+    }
+    
+    .apple_btn{
+        margin-left: 38%;
+    }
+    
+    .melon{
+        margin: 10%;
+        margin-left: 6%;
+        width: 350px;
+        height: 300px;
+        display: block;
+        padding-top: 2%;
+    }
+    
+    .melon_img{
+        height: 150px;
+        padding-left: 25%;
+    }
+    
+    .melon_h3{
+        color: black;
+        font-size: 30px;
+        padding: 0% 0 5% 17%;
+    }
+    
+    .melon_btn{
+        margin-left: 38%;
+    }
+    
+}

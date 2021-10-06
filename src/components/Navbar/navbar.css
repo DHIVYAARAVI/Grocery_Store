@@ -1,0 +1,54 @@
+.navbar{
+    background-color: #006400;
+    padding-left: 2%;
+}
+
+.navbar_all{
+    margin-right: 30%;
+    margin-left: -80%;
+}
+
+.nav_img{
+    height: 100px;
+    padding-left: 2%;
+}
+
+.nav_font{
+    font-size: 20px;
+    padding-left: 10%;
+    width: 100px;
+    text-align: center;
+}
+
+.nav_fonts{
+    margin-right: 15%;
+    background-color: #98FB98;
+    color: darkblue;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.nav_fonts:hover{
+    background-color: #DC143C;
+}
+
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        padding-left: 3%;
+    }
+    
+    .nav_img{
+        height: 70px;
+    }
+    
+    .nav_font{
+        font-size: 15px ;
+        color: white;
+    }
+    .nav_fonts{
+        margin-top: 10%;
+        margin-right: -5%;
+        background-color: #006400;
+    }
+}

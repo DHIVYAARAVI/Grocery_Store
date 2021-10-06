@@ -1,0 +1,42 @@
+.ship{
+    margin: 0 20% -5% 22%;
+}
+
+.ship_card{
+    background-color: #20B2AA	;
+    color: white ;
+    font-weight: bold;
+    display: inline-flex;    
+    text-align: center;
+    padding: 4% 5% 4% 12%;
+    border-radius: 10px;
+    border: 5px solid #2E8B57;
+    box-shadow: 5px 5px 50px #20B2AA;
+}
+
+.ship_img{
+    height: 100px;
+}
+
+.ship_font{
+    margin-right: 15%;
+}
+
+@media only screen and (max-width: 600px){
+    .ship{
+        margin: 0 2% -10% 2%;
+    }
+    
+    .ship_card{
+        padding: 4% 5% 4% 10%;
+    }
+    
+    .ship_img{
+        height: 70px;
+    }
+    
+    .ship_font{
+        margin-right: 5%;
+        font-size: 13px;
+    }
+}

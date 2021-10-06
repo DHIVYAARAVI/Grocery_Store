@@ -1,0 +1,63 @@
+.form_head{
+    background-color: #E6E6FA;
+    padding: 5% 23.9% 5% 25%;
+    margin-bottom: 5%;
+}
+
+.form{
+    background-image: url('../../images/36.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    padding: 25% 0 0 20%;
+    color: white;
+    font-family: 'Merienda One';
+    box-shadow: 5px 5px 40px #483D8B;
+}
+
+input{
+    padding: 1% 1% 1% 1%;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-right: 2%;
+}
+
+.form_btn{
+    border-radius: 5px;
+    padding: 1% 1% 1% 1%;
+    border: 5px solid #E9967A;
+    font-weight: bold;
+}
+
+.form_btn:hover{
+    background-color: #B22222;
+    color: white;
+}
+
+@media only screen and (max-width: 600px){    
+    .form_head{
+        padding: 5% 5% 5% 1%;
+        margin-bottom: 5%;
+    }
+    .form{
+        height: 260px;
+        padding: 25% 0 0 2%;
+        color: white;
+        font-family: 'Merienda One';
+        box-shadow: 5px 5px 40px #483D8B;
+        margin-left: 5%;
+    }
+    
+    input{
+        font-size: 15px;
+    }
+    
+    .form_btn{
+        font-size: 13px;
+    }
+
+    h2{
+        font-size: 18px;
+        margin-left: 10%;
+    }
+}
